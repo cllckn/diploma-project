@@ -29,8 +29,8 @@ Students must analyze their specific domain and define concrete business rules f
 Students must adhere to the following technology constraints:
 
 ### 5.1. Allowed Technologies
-* **Frontend:** Free choice (React, Vue, Angular, Svelte, etc.). Must include interactive data visualization and mapping/charting libraries.
-* **Backend API:** Spring Boot (Java), Node.js (NestJS/Express), or PHP based frameworks. *Responsible for REST APIs, Authentication, User Management, and serving the frontend.*
+* **Frontend:** Free choice (React, Vue, Angular, etc.). Must include interactive data visualization and mapping/charting libraries.
+* **Backend API:** Spring Boot (Java), Node.js, or PHP based frameworks. *Responsible for REST APIs, Authentication, User Management, and serving the frontend.*
 * **Data Analytics Module:** **Pure Python** (No heavy web frameworks like Django/FastAPI for this specific module). Use standard data/ML libraries (Pandas, NumPy, Scikit-learn, PyTorch, etc.) and Kafka consumer libraries (`confluent-kafka` or `kafka-python`). This module acts purely as background processing workers.
 * **Message Broker:** **Apache Kafka** (Mandatory). Acts as the central nervous system for inter-module communication.
 * **Databases:**
